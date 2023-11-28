@@ -12,8 +12,6 @@ class ListExamples {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
-        // I forgot to delete my debugging statement!
-        System.out.println("OK! We made it here.");
         result.add(0, s);
       }
     }
